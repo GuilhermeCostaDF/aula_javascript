@@ -9,9 +9,9 @@ function redirecionar(){
     //window.location.href = "http://globo.com" abre na mesma aba
 }
 
-function trocar(elemento){
+function trocar(qualquerCoisa){
     //document.getElementById("mousemove").innerHTML = "Obrigado, lindo!!!"
-    elemento.innerHTML="Obrigado, lindo!!!"
+    qualquerCoisa.innerHTML="Obrigado, lindo!!!"
 }
 
 function voltar(elemento){
@@ -20,7 +20,7 @@ function voltar(elemento){
 }
 
 function load(){
-    alert("Pagina parregada")
+    alert("Pagina Carregada")
 }
 
 function funcaoChange(elemento){
